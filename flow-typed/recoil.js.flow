@@ -1,0 +1,3 @@
+declare module "recoil" {
+  declare module.exports: any;
+}
