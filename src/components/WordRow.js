@@ -30,9 +30,6 @@ const styles = {
     background: "#212121",
     display: "flex",
     flexDirection: "row",
-    // flexWrap: 'wrap',
-    // padding: '3px',
-    // height: '60px',
   },
   box: {
     padding: 5,
