@@ -14,7 +14,22 @@ export const WordRowsAtom: RecoilState<Array<React.Node>> = atom({
   default: [],
 });
 
+export const PreviousWordsAtom: RecoilState<Array<string>> = atom({
+  key: "PreviousWordsAtom",
+  default: ["morph"],
+});
+
 export const InputWordAtom: RecoilState<string> = atom({
   key: "InputWordAtom",
   default: "",
+});
+
+export const ScoreAtom: RecoilState<number> = atom({
+  key: "ScoreAtom",
+  default: 0,
+});
+
+export const GameOverAtom: RecoilState<boolean> = atom({
+  key: "GameOverAtom",
+  default: false,
 });
