@@ -29,6 +29,11 @@ export const ScoreAtom: RecoilState<number> = atom({
   default: 0,
 });
 
+export const InputScoreAtom: RecoilState<number> = atom({
+  key: "InputScoreAtom",
+  default: 0,
+});
+
 export const GameOverAtom: RecoilState<boolean> = atom({
   key: "GameOverAtom",
   default: false,
